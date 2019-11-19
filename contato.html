@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sistemas para Internet | Contato </title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="icones/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png">
+	<link rel="manifest" href="icones/site.webmanifest">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html"><img src="icones/logo-3-amigos.png" alt="Logo da empresa 3 amigos."></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="linkcarlos.html">Carlos Martins</a></li>
+					<li><a href="linkgabriel.html">Gabriel Antunes</a></li>
+					<li><a href="linkpedro.html">Pedro Targhetta</a></li>
+					<li><a href="linktabela.html">Tabela de Curiosidades</a></li>
+					<li><a href="linksites.html">Sites Favoritos</a></li>
+					<li><span>Contato</span></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<h1>Projeto Orientado</h1>
+
+	<h2 class="h2-contato">Entre em contato conosco</h2>
+
+
+
+
+	<form method="post" action="http://hub.fatecrl.edu.br/sobrino/recebe.php">
+		<p>
+			<label>
+				Nome: <br>
+				<input type="text" name="nome" id="nome" size="35" maxlength="35" placeholder="Digite seu nome completo" autofocus autocomplete="off">
+			</label>
+		</p>
+		
+		<p>
+			<label>
+				Email: <br>
+				<input type="email" name="email" id="email" placeholder="Digite seu email">
+			</label>
+		</p>
+		
+		<p>
+			<label>
+				Mensagem: <br>
+				<textarea name="texto" id="texto" rows="5" cols="35" maxlength="300" placeholder="Digite sua mensagem"></textarea>
+			</label>
+		</p>
+
+			<span class="pergunta-form">Você é aluno da FATEC?</span> <br>
+				<label>
+					<span class="pergunta-form">Sim</span> <input type="radio" name="aluno" value="sim" >
+				</label>
+			<br>
+				<label>
+					<span class="pergunta-form">Não</span><input type="radio" name="aluno" value="nao">
+				</label>
+			
+		<input type="hidden" name="origem-form" value="projeto-orientado-3-amigos">
+
+		<p>
+			<button>Enviar!</button>
+		</p>
+	</form>
+
+</body>
+</html>

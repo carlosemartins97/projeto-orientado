@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Open Sans', sans-serif;
+	padding: 1%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background: #55d6aa;
+	font-weight: bold;
+	padding: 10px;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+ nav {
+ 	float: right;
+ }
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 35px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a, nav span {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+nav span {
+	color: #55d6aa;
+	background-color: #222;
+	border-radius: 10px;
+	padding: 10px;
+	transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+.img-corpo {
+	float: left;
+	margin-right: 20px;
+	border: 3px #666 solid;
+	padding: 5px;
+	border-radius: 50%
+
+}
+
+.img-alunos {
+	border-radius:7%;
+	float: left;
+	border: 3px #666 solid;
+}
+
+.bloco1 {
+	display: inline-block;
+	text-align: center;
+	padding: 2%;
+}
+
+h1,h2,h3 {
+	background-color: #55d6aa;
+	color: #fff;	
+	padding: 10px;
+}
+
+#paragrafo1 {
+	padding: 1% 2%;
+}
+
+p, .pergunta-form {
+	color: #55d6aa;
+	font-weight: bold;
+}
+
+.txt-alunos {
+	padding-left: 350px;
+	padding-top: 20px;
+}
+
+th,td {
+	border: 2px solid #555;
+	padding: 10px;
+	background-color: #fff;
+}
+
+th {
+	color: #fff;
+	background-color: #55d6aa;
+}
+
+td {
+	color: #55d6aa;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	color: #55d6aa;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.ul-sites {
+	color: #55d6aa;
+}
+
+.sites {
+	color: #fff;
+}
+
+.sites:hover {
+	color: #999;
+}
+
+.h3-alunos {
+	width: 180px;
+	text-align: center;
+}
+
+.h2-contato {
+	width: 380px;
+	text-align: center;
+}
